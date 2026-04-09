@@ -48,7 +48,7 @@ public class PROJECTPART1 {
         if (!checkPasswordComplexity()) {
             return "Password is not correctly formatted; please ensure that the password contains at least eight characters, a capital letter, a number, and a special character.";
         }
-
+//cellphone validation
         if (!checkCellPhoneNumber()) {
             return "Cell phone number incorrectly formatted or does not contain international code; please correct the number and try again.";
         }
