@@ -39,7 +39,7 @@ public class PROJECTPART1 {
         return cellPhoneNumber.matches(regex);
     }
 
-    // Registration 
+    // added Registration input
     public String registerUser() {
         if (!checkUserName()) {
             return "Username is not correctly formatted; please ensure that your username contains an underscore and is no more than five characters in length.";
