@@ -10,7 +10,7 @@ import java.util.Scanner;
  * @author ntatiso
  */
 public class PROJECTPART1 {
-
+//added basic input
     private String firstName;
     private String lastName;
     private String userName;
