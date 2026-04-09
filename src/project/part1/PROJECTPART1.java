@@ -44,7 +44,7 @@ public class PROJECTPART1 {
         if (!checkUserName()) {
             return "Username is not correctly formatted; please ensure that your username contains an underscore and is no more than five characters in length.";
         }
-
+//password validation
         if (!checkPasswordComplexity()) {
             return "Password is not correctly formatted; please ensure that the password contains at least eight characters, a capital letter, a number, and a special character.";
         }
