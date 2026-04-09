@@ -61,7 +61,7 @@ public class PROJECTPART1 {
         return this.userName.equals(enteredUserName) && this.password.equals(enteredPassword);
     }
 
-    // Login message
+    // Login system 
     public String returnLoginStatus(boolean loginSuccess) {
         if (loginSuccess) {
             return "Welcome " + firstName + ", " + lastName + " it is great to see you again.";
